@@ -133,3 +133,6 @@ body {
 .footer {
     background-color: #2e2f42;
 }
+.img {
+    display: block;
+}
