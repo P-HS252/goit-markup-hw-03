@@ -98,6 +98,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .text {
     font-size: 16px;
@@ -183,4 +184,20 @@ img {
 }
 .onesection {
     padding: 188px 0 188px;
+}
+.twosection {
+    padding: 120px 0 120px;
+}
+.twolist {
+    display: flex;
+    gap: 24px;
+}
+.twolist li {
+    margin-right: 24px;
+}
+.twolist li:last-child {
+    margin-right: 0;
+}
+.twoli {
+    width: calc((100% - 72px) / 4);
 }
