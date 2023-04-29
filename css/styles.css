@@ -215,10 +215,10 @@ img {
 .threelist li :last-child {
     margin-right: 0;
 }
-.pictor li:first-child {
+.pictor li {
     flex-basis: calc((100% - 48px) / 3);
 }
-.pictor li:first-child {
+.pictor li {
     width: calc((100% - 48px) / 3);
   }
   
