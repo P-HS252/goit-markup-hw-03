@@ -113,6 +113,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .foursection {
     background-color: #F4F4FD;
@@ -200,5 +201,24 @@ img {
 }
 .twoli {
     width: calc((100% - 72px) / 4);
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.threesection {
+    padding-bottom: 120px;
+}
+.threelist {
+    display: flex;
+    gap: 24px;
+}
+.threelist li {
+    margin-right: 24px;
+}
+.threelist li :last-child {
+    margin-right: 0;
+}
+.pictor li:first-child {
+    flex-basis: calc((100% - 48px) / 3);
+}
+.pictor li:first-child {
+    width: calc((100% - 48px) / 3);
+  }
+  
