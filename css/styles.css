@@ -128,9 +128,9 @@ body {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.team {
+.team li {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis : calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .team-text {
@@ -138,7 +138,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2e2f42; 
     text-align: center;
     margin-bottom: 8px;
 }
