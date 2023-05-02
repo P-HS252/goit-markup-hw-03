@@ -10,6 +10,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .link {
     text-decoration: none;
@@ -83,4 +84,45 @@ body {
 }
 .logo-tex {
     color: #f4f4fd;
+}
+img {
+    display: flex;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.headerdiv {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+.headernav {
+    display: flex;
+    align-items: center;
+}
+.headerlist {
+    display: flex;
+    gap: 40px;
+}
+.headerlist li {
+    margin-right: 40px;
+}
+.headerlist li:last-child {
+    margin-right: 0;
+}
+.headermenu {
+    padding: 24px 0 24px;
+}
+.addresslist {
+    display: flex;
+    gap: 40px;
+}
+.headerlist li {
+    margin-right: 40px;
+}
+.headerlist li:last-child {
+    margin-right: 0;
 }
