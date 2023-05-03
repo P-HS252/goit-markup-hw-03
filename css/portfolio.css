@@ -58,14 +58,18 @@ body {
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px 12px;
+    border: 1px solid #e7e9fc;
 }
 .button:hover {
     color: #FFFFFF;
     background-color: #404BBF ;
+    border: 1px solid transparent;
 }
 .button:focus {
     color: #FFFFFF;
     background-color: #404BBF ;
+    border: 1px solid transparent;
 }
 .about {
     font-weight: 500;
@@ -123,4 +127,19 @@ img {
 }
 .headerlist li:last-child {
     margin-right: 0;
+}
+.section {
+    padding: 96px 0 120px;
+}
+.sectionlist {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.section-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
